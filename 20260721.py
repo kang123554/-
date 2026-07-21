@@ -80,6 +80,58 @@
 
 ##print(len("안녕하세요"))
 
-print("안녕하세요"[10])
+##print("안녕하세요"[10])
+
+##txt1 = input("아이디 : ")
+##txt2 = input("비밀번호 : ")
+##message = (f"당신의 아이디는 \"{txt1}\"이며, 비밀번호는 \"{txt2}\"입니다.")
+
+##str1 = "파이썬 문자열을 골라보자"
+##print(str1[0])
+##print(str1[4])
+##print(str1[9])
+##print(str1[2])
+##print(str1[6])
+##print(str1[12])
+
+##word = "문자열과 인덱스"
+##print(word[0])
+##print(word[3])
+##print(word[5])
+##print(word[-1])
+
+##snack = "떡볶이 순대 튀김"
+##setmenu = snack[0] + snack[4] + snack[7]
+##print(setmenu)
+
+##word = "부분만 바꾸려고 하면 에러가 나요"
+##print(word)
+
+##word[0] = "수" # 에러나면 주석처리해서 다시
+##word = "새로 만들어 덮어쓰기는 가능"
+##print(word)
+
+##word = "슬라이싱으로 다양하게 문자를 잘라봅시다"
+##
+##print(word[0:4])
+##print(word[7:9])
+##print(word[5:])
+##print(word[:12])
+##print(word[::3])
+##print(word[::-3])
+
+song = "록도닳 고르마 이산두백 과물해동"
+
+reverse = song[::-1]
+print(reverse)
+
+song ="동해물과 백두산이 마르고 닳도록"
+
+part_song = song[0:4]
+print(part_song)
+part_song = song[5:13]
+print(part_song)
+part_song = song[14:]
+print(part_song)
 
 
