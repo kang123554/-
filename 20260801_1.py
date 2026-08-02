@@ -1,0 +1,12 @@
+##txt1 = int(input("첫 번째 숫자 입력 : "))
+##txt2 = int(input("두 번째 숫자 입력 : "))
+##print(f"txt1 + txt2 = {txt1 + txt2}")
+##print(f"txt1 - txt2 = {txt1 - txt2}")
+##print(f"txt1 * txt2 = {txt1 * txt2}")
+##print(f"txt1 / txt2 = {txt1 / txt2:.2f}")
+           
+txt1 = int(input("숫자를 입력해주세요 : "))
+print(f"{txt1 + 50}")
+print(f"{txt1 - 50}")
+print(f"{txt1 * 50}")
+print(f"{txt1 / 50:.3f}")
