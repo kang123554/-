@@ -67,16 +67,41 @@
 ##print(f"50원 {price6}개")
 ##print(f"10원 {price8}개")
 
-number = int(input("세 자리 숫자 입력 : "))
-number1 = number % 10
-number = number // 10
-number10 = number % 10
-number = number // 10
-number100 = number % 10
+##number = int(input("세 자리 숫자 입력 : "))
+##number1 = number % 10   3
+##number = number // 10   12
+##number10 = number % 10  2 
+##number = number // 10   12 
+##number100 = number % 10 1 
+##
+##print(f"백의 자리 : {number100}")
+##print(f"십의 자리 : {number10}")
+##print(f"일의 자리 : {number1}")
 
-print(f"백의 자리 : {number100}")
-print(f"십의 자리 : {number10}")
-print(f"일의 자리 : {number1}")
+num = int(input("다섯 자리 숫자를 입력합니다 : "))
+num1 = num % 10     
+num2 = num // 10
+num3 = num2 % 10    
+num4 = num2 // 10
+num5 = num4 % 10
+num6 = num4 // 10
+num7 = num6 % 10
+num8 = num6 // 10
+num9 = num8 % 10
+
+print(f"만의자리 : {num8}")
+print(f"천의자리 : {num6}")
+print(f"백의자리 : {num4}")
+print(f"십의자리 : {num2}")
+print(f"일의자리 : {num1}")
+
+
+
+
+
+
+
+
 
 
 
