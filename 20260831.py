@@ -34,12 +34,21 @@
 ##    print(f"파이썬")
 ##    count += 1
 
-##num = 1
-##count = 0 
-##
+num = 1
+count = 0
+
+while num <= 10:
+    count += num
+    print(num)
+num += 1#2    
+
+
+
+
 ##while num <= 10:
-##    if num = num + 1:
+##    if num + 1:
 ##        print(num)
+##        count += 1
 ##    num += 1
 
 ##num = 1
@@ -53,21 +62,18 @@
 ##        print(num , end=" ")
 ##    num += 1
 
-num = 1
-count = 0
-
-while num <= 200:
-    if num % 5 == 0:
-        print(num , end=" ")
-        count += 1
-    if count % 5 == 0:
-        print()
-
-
-    
+##num = 5
+##count = 0
+##
+##while num <= 200:
+##    if num % 5 == 0:
+##        print(num , end=" ")
+##        count += 1
+##    if count % 5 == 0:
+##        print()
+##    num += 5 
 
 
 
 
 
-    
