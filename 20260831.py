@@ -39,9 +39,8 @@ count = 0
 
 while num <= 10:
     count += num
-    print(num)
-num += 1#2    
-
+    num += 1#2    
+print(count)
 
 
 
@@ -72,8 +71,3 @@ num += 1#2
 ##    if count % 5 == 0:
 ##        print()
 ##    num += 5 
-
-
-
-
-
